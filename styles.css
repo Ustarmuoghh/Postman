@@ -1,0 +1,41 @@
+html{
+    width: 100;
+    height: 100%;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.or{
+    display: flex;
+}
+.leftside{
+    background-image: url('/assets/svg/postmanBg.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+    
+.formContainer{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 700px;
+}
+ul{
+    text-align: left;
+}
+
+input{
+    outline: none;
+    border-radius: 3px;
+    padding: 9px;
+}
+
+h3{
+   margin-right: 50px;
+}
